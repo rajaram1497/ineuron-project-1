@@ -1,0 +1,210 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    overflow: hidden;
+}
+
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    padding: 30px;
+    align-items: center;
+}
+
+.list-item ul {
+    display: flex;
+    align-items: center;
+    list-style-type: none;
+    gap: 50px;
+    font-family: "Orbitron", Helvetica, sans-serif;
+}
+
+.hero img{
+    height: 360px;
+
+}
+.navbar-container img{
+    position: relative;
+    right: 70px;
+    height: 40px;
+    
+}
+
+
+
+
+
+
+
+    
+
+.list-item:nth-child(1) {
+    font-size: 1.3rem;
+    font-weight:  800;
+    /* text-decoration: underline; */
+    border-bottom: 1px solid;
+}
+
+.list-item:nth-child(1):hover{
+    font-weight: normal;
+    
+}
+
+.list-items ul li:hover{
+    border-bottom: 1px solid;
+    /* width: 30px; */
+    font-weight: bold;
+    font-weight: 800;
+
+}
+.button-group {
+    display: flex;
+    gap: 20px;
+}
+
+.nav-button {
+    border: 1px solid;
+    padding: 10px 40px;
+    border-radius: 10px;
+}
+
+.hero-container {
+    display: flex;
+    position: relative;
+    gap: 30px;
+}
+
+.square {
+    position: relative;
+    top: 280px;
+    left: 190px;
+
+}
+
+
+
+.square img {
+    height: 160px;
+    width: 180px;
+
+}
+
+.globe {
+    position: absolute;
+    left: 55.6%;
+    top: -7px;
+}
+
+.star {
+    position: absolute;
+    right: 10%;
+}
+
+.globe img{
+    height: 50px;
+}
+.star img {
+    height: 40px;
+}
+
+.star2 {
+    position: absolute;
+    left: 780px;
+    top: 680px;
+}
+
+.star2 img {
+    position: relative;
+    bottom: 285px;
+    right: 335px;
+    height: 35px;
+}
+
+.hero {
+    position: absolute;
+    top: 50px;
+    left: 50px;
+    
+    
+}
+
+.hero-container-right {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    top: 100px;
+    gap: 35px;
+    left: 100px;
+}
+
+.hero-container-right h1 {
+    font-size: 60px;
+    margin: 0;
+    font-family: "orbition", Arial, Helvetica, sans-serif;
+    
+    
+
+}
+
+.hero-container-right p {
+    padding: 0px 136px;
+    text-align: center;
+    margin: -11px 50px;
+    color: gray;
+}
+.button-email,.button-join{
+    font-family: "Orbitron", Helvetica, sans-serif;
+    display:flex;
+    gap: 15px;
+
+}
+
+.button-email {
+    border: -2px solid;
+    padding: 1px 25px;
+    border-radius: 7px;
+    font-size: 20px;
+}
+
+.button-joint {
+    background-color: black;
+    color: white;
+    padding: 5px 7px;
+    border-radius: 7px;
+
+}
+
+
+.icon_sec {
+    display: flex;
+    flex-direction: column;
+    align-items: centre
+}
+
+.contact-heading {
+    font-size: 20px;
+    text-align: center;
+    /* margin: 0; */
+    margin-bottom: 15px;
+    color: gray;
+    font-weight: 100px;
+
+}
+
+.icons {
+    display: flex;
+    justify-content: centre;
+    align-items:centre;
+    gap: 15px;
+    
+}
+
+.icon span img {
+    height: 35px;
+}
+.icons img {
+    display: flex;
+    height: 30px;
+}
